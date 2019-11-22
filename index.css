@@ -1,0 +1,59 @@
+:root {
+    --brightgreen-color:  #00ff41;
+    --middlegreen-color: #008F11;
+    --darkgreen-color: #003B00;
+}
+
+html {
+    background: black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;   
+    height: 100vh;
+}
+
+.letterDiv {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 40px;
+    width: 5%;
+}
+
+p.letter {
+    text-align: center;
+    margin: 45px;
+ 
+}
+.firstLetter {
+    color: var(--darkgreen-color);
+    
+}
+.secondLetter {
+    color: var(--middlegreen-color);
+}
+
+.thirdLetter {
+    color: var(--middlegreen-color);
+}
+
+.fourthLetter {
+    color: var(--brightgreen-color);
+}
+
+.fifthLetter {
+    color: var(--middlegreen-color);
+}
+
+.sixthLetter { 
+    color: var(--middlegreen-color);
+}
+
+.seventhLetter {
+    color: var(--darkgreen-color);
+}
+
